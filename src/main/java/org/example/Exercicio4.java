@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class Exercicio4 {
 
-    public static String classificacaoIdade(int idade){
-        if (idade <= 12){
+    public static String classificacaoIdade(int idade) {
+        if (idade <= 12) {
             return "A - Criança";
         } else if (idade >= 13 && idade <= 17) {
             return "B - Adolescente";
@@ -18,24 +18,36 @@ public class Exercicio4 {
             return "E - Categoria inválida";
         }
     }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite uma idade e vamos te falar em qual categoria" +
                 "essa idade se classifica");
 
-        try {
-            System.out.println("Digite a idade: ");
-            int idade = sc.nextInt();
-            String cat = classificacaoIdade(idade);
+        int idade = 0;
+        boolean entradaValida = false;
 
-            if (cat.equals("4")){
-                System.out.println("Categoria inválida. A idade fornecida não se enquadra em nenhuma categoria.");
-            }else {
-                System.out.println("A pessoa pertence à categoria: " + cat);
+        while (!entradaValida) {
+            try {
+                System.out.println("Digite a idade: ");
+                idade = sc.nextInt();
+                if (idade < 0) {
+                    System.out.println("Por favor, insira um valor não negativo para a idade.");
+                } else {
+                    entradaValida = true;
+                }
+
+            } catch (InputMismatchException e) {
+                System.out.println("Entrada inválida. Por favor, insira um valor inteiro para a idade.");
+                sc.next();
             }
+        }
+        String cat = classificacaoIdade(idade);
 
-        } catch (InputMismatchException e) {
-            System.out.println("Entrada inválida. Por favor, insira um valor inteiro para a idade.");
+        if (cat.equals("E")) {
+            System.out.println("Categoria inválida. A idade fornecida não se enquadra em nenhuma categoria.");
+        } else {
+            System.out.println("A pessoa pertence à categoria: " + cat);
         }
 
         sc.close();
