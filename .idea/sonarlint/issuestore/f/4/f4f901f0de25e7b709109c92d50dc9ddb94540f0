@@ -1,0 +1,9 @@
+
+s	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK8“»ÌÎ¼1
+W
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8îÌËÎ¼1
+G	java:S106"+Replace this use of System.out by a logger.(áĞ…Ô8‰ÍËÎ¼1
+G	java:S106"+Replace this use of System.out by a logger.(ä¯ÆÍ8‹ÍËÎ¼1
+L	java:S106"+Replace this use of System.out by a logger.(²œÈŸûÿÿÿÿ8ÍËÎ¼1
+G	java:S106""+Replace this use of System.out by a logger.(ïÆÕÃ8ÍËÎ¼1
+G	java:S106$"+Replace this use of System.out by a logger.(¥ßšë8©»ÌÎ¼1
