@@ -1,6 +1,11 @@
 
-L	java:S106"+Replace this use of System.out by a logger.(»ä•—ÿÿÿÿÿ8¤¡æÍ¼1
-L	java:S106
-"+Replace this use of System.out by a logger.(üºÊÇüÿÿÿÿ8¦¡æÍ¼1
-G	java:S106"+Replace this use of System.out by a logger.(ëÄŒê8ÑÜæÍ¼1
-L	java:S106"+Replace this use of System.out by a logger.(Äãƒ†úÿÿÿÿ8ä‹éÍ¼1
+z	java:S135	"YReduce the total number of break and continue statements in this loop to use at most one.(ü§è½ùÿÿÿÿ8ÁÅµ¡½1
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Çµí‘8ØÅµ¡½1
+G	java:S106"+Replace this use of System.out by a logger.(Â‹íÔ8ÚÅµ¡½1
+L	java:S106"+Replace this use of System.out by a logger.(üºÊÇüÿÿÿÿ8ÛÅµ¡½1
+G	java:S106"+Replace this use of System.out by a logger.(ÌŠñû8ÛÅµ¡½1
+G	java:S106"+Replace this use of System.out by a logger.(ëÄŒê8ÛÅµ¡½1
+L	java:S106"+Replace this use of System.out by a logger.(Äãƒ†úÿÿÿÿ8ÜÅµ¡½1
+L	java:S106"+Replace this use of System.out by a logger.(Ý½ÑÞûÿÿÿÿ8ÜÅµ¡½1
+F	java:S106""+Replace this use of System.out by a logger.(¶²¹A8ÜÅµ¡½1

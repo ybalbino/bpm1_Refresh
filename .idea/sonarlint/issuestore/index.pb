@@ -11,3 +11,7 @@ Y
 )src/main/java/org/example/Exercicio4.java,1\0\10a5569d8dbe3e180175ea2ed1b9d8a8a5ec47e2
 Y
 )src/main/java/org/example/Exercicio5.java,f\4\f4f901f0de25e7b709109c92d50dc9ddb94540f0
+T
+$src/main/java/org/example/teste.java,3\0\30aa3b320bcec94fb7159b2889c03c17b1ce3d8f
+U
+%src/main/java/org/example/teste2.java,e\1\e17c7d0f65207aa8aeb795b25b17439e8389c885
